@@ -5,9 +5,9 @@ Steps followed on working
 
 1.Truffle - developing ethereum blockchain application, easy to compile to test and deploy.
 
-2.npm install truffle (package)
+2.npm install truffle library (packages)
 
-3npx truffle init - to install modules 
+3.npx truffle init - to install modules 
 
 4.contracts (Solidity)  Migrations.sol, Odooimage.sol for deploying smart contract. 
 
