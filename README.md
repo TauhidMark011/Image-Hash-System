@@ -5,7 +5,7 @@ Steps followed on working in the project --
 
 1.Truffle - developing ethereum blockchain application, easy to compile to test and deploy.
 
-2.npm install truffle library (packages)
+2.npm install truffle framework (packages)
 
 3.npx truffle init - to install modules 
 
