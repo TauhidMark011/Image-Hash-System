@@ -1,6 +1,9 @@
 # Blocktask_tecblic
-Truffle - developing ethereum blockchain application, easy to compile to test and deploy.
-npm install truffle
+*Tools and Technologies Used on the development:
+Steps followed on working
+
+1.Truffle - developing ethereum blockchain application, easy to compile to test and deploy.
+2.npm install truffle (package)
 npx truffle init - to install modules (contracts, migration, for test, truffle.cofig file)
 Ganache Cli - personal blockchain for transaction and accounts on ethereum and to get free ethers and address.
 using ERC721 standard, interface provides set of functionality in smart contract (Method, Events).
