@@ -23,7 +23,7 @@ Steps followed on working in the project Test cases --
 
 8.web3 -  talk to ethereum network. 
 
-9.IPFS for image storage and retrieval (pinata services & API - CID)
+9.IPFS for image storage and retrieval from server (pinata services & API - CID)
 using pinata api key. getting response IPFS Hash, Pin Size, Time stamp.
 
 10.npm i dotenv
