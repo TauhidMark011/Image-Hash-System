@@ -38,4 +38,4 @@ using pinata api key. getting response IPFS Hash, Pin Size, Time stamp.
 
 15.npm install truffle/hdwallet-provider - to sign the transaction when deploying in Rinkeby public test network.
 
-16.meta mask
+16.meta mask wallet
