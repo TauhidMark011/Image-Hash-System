@@ -1,7 +1,7 @@
 # Blocktask_tecblic
 *Tools and Technologies Used on the development:
 
-Steps followed on working in the project --
+Steps followed on working in the project Test cases --
 
 1.Truffle framework - developing ethereum blockchain application, easy to compile to test and deploy.
 
