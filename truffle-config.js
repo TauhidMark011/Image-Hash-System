@@ -18,8 +18,12 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-//
+require('dotenv').config() 
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+
+const mnemonic = process.env.MNEMONIC
+const clientURL = process.env.ETH_CLIENT_URL
+
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
