@@ -1,4 +1,4 @@
-# Image Hash
+# Image Hash System
 *Tools and Technologies Used on the development:
 
 Steps followed on working in the project Test cases --
