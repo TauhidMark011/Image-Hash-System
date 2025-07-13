@@ -1,41 +1,46 @@
-# Image Hash System
-*Tools and Technologies Used on the development:
+🛡️ Image Hash System (Blockchain-based Image Validation and Storage)
+Tools & Technologies:
+Truffle • Solidity • Ganache CLI • IPFS • Web3.js • MetaMask • OpenZeppelin • Infura • Pinata • ERC721 • dotenv • HDWalletProvider • Rinkeby Testnet
 
-Steps followed on working in the project Test cases --
+📖 About This Project
+This project focuses on securely validating image ownership and integrity using blockchain technology. Images are stored on IPFS via Pinata service (using CID), and smart contracts are deployed on the Ethereum Rinkeby Test Network using Infura API. The contract follows the ERC721 standard, enabling each image to be treated as a unique NFT (Non-Fungible Token). This ensures both decentralization and traceable ownership of digital content.
 
-1.Truffle framework - developing ethereum blockchain application, easy to compile to test and deploy.
+🔧 Key Steps in Development & Testing Workflow:
+Truffle Framework: Used for developing, compiling, testing, and deploying Ethereum smart contracts with ease.
 
-2.npm install truffle (packages)
+npm Setup:
+Installed Truffle and related packages: npm install truffle
+Initialized Truffle project: npx truffle init
+Smart Contracts:
+Created OdooImage.sol for the main logic and Migrations.sol for deployment tracking.
+Followed ERC-721 standard for NFT-based image identity and ownership.
 
-3.npx truffle init - to install modules 
+Configuration:
+truffle-config.js configured for HDWalletProvider, Solidity compiler, and deployment to Rinkeby Test Network using Infura.
+Local Blockchain Testing:
+Used Ganache CLI for running a local Ethereum blockchain with test accounts and free Ether.
+Interacted with contracts via npx truffle console.
 
-4.contracts (Solidity)  Migrations.sol, Odooimage.sol for deploying smart contract. 
+Libraries & Standards:
+Integrated OpenZeppelin Contracts (@openzeppelin/contracts) for secure and modular contract development.
 
-5.truffle.cofig file - for configuration of HDWalletProvider, Development, Rinkeby Test network , solc compiler.
+IPFS Integration:
+Used Pinata API for storing and retrieving image files on IPFS.
+Fetched IPFS metadata including CID, pin size, and timestamp for validation and tracking.
 
-4.Ganache Cli - personal blockchain for transaction and accounts on ethereum and to get free ethers and address.
+Web3.js:
+Enabled interaction between the frontend and Ethereum blockchain.
 
-5.using ERC721 standard, interface provides set of functionality in smart contract (Method, Events).
+Environment Management:
+Used dotenv and config for secure environment setup and script automation.
 
-6.Openzeppelin libraray - npm install @openzeppelin/contracts. 
+Example command: export NODE_ENV=dev && node script/runScript.js
 
-7.npx truffle console - to run in the development mode.
+MetaMask Wallet:
+Integrated for signing transactions and interacting with the deployed contract via browser extension.
 
-8.web3 -  talk to ethereum network. 
-
-9.IPFS for image storage and retrieval from server to let User validation, opensea. (pinata services & API - CID)
-using pinata api key. getting response IPFS Hash, Pin Size, Time stamp.
-
-10.npm i dotenv
-
-11.npm install config
-
-12.export NODE_ENV=dev
-
-13.node script/runScript.js
-
-14.Added & Integrated Infura ethereum Api
-
-15.npm install truffle/hdwallet-provider - to sign the transaction when deploying in Rinkeby public test network.
-
-16.meta mask wallet
+Deployment:
+Signed transactions and deployed contracts on the Rinkeby public testnet using:
+nginx
+npm install @truffle/hdwallet-provider
+🔗 Outcome: Delivered a fully functional DApp that allows users to upload, hash, store, and verify images using IPFS and Ethereum. Each image is minted as an NFT using ERC721 standards to ensure ownership and immutability.
